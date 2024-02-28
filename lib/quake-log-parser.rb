@@ -1,0 +1,5 @@
+require_relative './quake-log-parser/event'
+require_relative './quake-log-parser/match'
+require_relative './quake-log-parser/kill'
+require_relative './quake-log-parser/player'
+require_relative './quake-log-parser/log_parser'
