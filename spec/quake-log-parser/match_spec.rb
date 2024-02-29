@@ -5,7 +5,7 @@ describe Match do
   let(:player1) { Player.new("Zeh") }
   let(:player2) { Player.new("Assasinu Credi") }
   let(:kill1) { Kill.new(player1, player2, "MOD_TRIGGER_HURT") }
-  let(:kill2) { Kill.new(player1, player2, "MOD_RAILGUN") }
+  let(:kill2) { Kill.new(player2, player1, "MOD_RAILGUN") }
   let(:world_death) { Kill.new(nil, "Isgalamido", "MOD_TRIGGER_HURT") }
 
   before do

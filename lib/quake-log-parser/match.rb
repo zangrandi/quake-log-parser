@@ -52,7 +52,6 @@ class Match
     }
   end
 
-
   def kill_report_by_death_reason
     kills_by_reason = Hash.new(0)
     kills.each { |kill| kills_by_reason[kill.reason] += 1 }

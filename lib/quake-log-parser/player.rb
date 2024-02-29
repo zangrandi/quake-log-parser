@@ -8,7 +8,11 @@ class Player
   end
 
   def score
-    kills.count - world_deaths.count
+    valid_kills.count - world_deaths.count
+  end
+
+  def valid_kills
+    kills.select { |kill| kill.killed != self }
   end
 
   def kills_and_world_deaths

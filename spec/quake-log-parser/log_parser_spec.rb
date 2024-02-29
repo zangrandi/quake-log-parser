@@ -26,9 +26,9 @@ describe LogParser do
         ], 
         :kills => {
           "Isgalamido"=>17, 
-          "Oootsimo"=>22, 
-          "Dono da Bola"=>14, 
-          "Assasinu Credi"=>19, 
+          "Oootsimo"=>21, 
+          "Dono da Bola"=>12, 
+          "Assasinu Credi"=>16, 
           "Zeh"=>19, 
           "Mal"=>6
         }
