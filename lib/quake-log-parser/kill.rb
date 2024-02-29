@@ -6,4 +6,9 @@ class Kill
     @killed = killed
     @reason = reason
   end
+
+  # This is to avoid a 'circular' dependency between kill and player when printing to irb console 
+  def inspect
+    "#{killer&.name || '<world>'} killed #{killed.name} by #{reason}"
+  end
 end
