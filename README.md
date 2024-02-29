@@ -12,7 +12,7 @@ The project include only 3 gems: activesupport, rake and rspec.
 To get started run:
 
 ```
-./bundle install
+bundle install
 ```
 
 ## Reports
@@ -20,13 +20,13 @@ To get started run:
 To run the main report of grouped deaths by player, run:
 
 ```
-./rake kill_reports
+rake kill_reports
 ```
 
 To run the report of grouped deaths by cause, run:
 
 ```
-./rake kill_reports_by_cause
+rake kill_reports_by_cause
 ```
 
 ## Specs
@@ -34,5 +34,5 @@ To run the report of grouped deaths by cause, run:
 To run the tests, run:
 
 ```
-./rspec
+rspec
 ```
